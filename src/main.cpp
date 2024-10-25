@@ -94,6 +94,7 @@ void opcontrol() {
         if (master.get_digital(pros::E_CONTROLLER_DIGITAL_UP)) {
             pros::MotorGroup left_mg({-1, 2, -3});    // Creates a motor group with reversed ports 1 & 3 and forward port 2
 			pros::MotorGroup right_mg({4, -5, 6});  // Creates a motor group with reversed port 5 and forward ports 4 & 6
+			int y = 4;
 
         }
 
